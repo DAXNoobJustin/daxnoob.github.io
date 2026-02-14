@@ -24,7 +24,7 @@
         {% set image_path = post.meta.image.path if post.meta.image is mapping else post.meta.image %}
         {% set image_alt = post.meta.image.alt if post.meta.image is mapping else post.title %}
       {% else %}
-        {% set image_path = "assets/images/logo-full.png" %}
+        {% set image_path = "assets/images/shared/logo-full.png" %}
         {% set image_alt = "DAX Noob" %}
       {% endif %}
       <div class="md-post__image">

@@ -14,7 +14,7 @@ tags:
 authors:
   - justinmartin
 slug: report-maintenance-remove-unused-report-measures
-image: assets/images/posts/report-maintenance-remove-unused-report-measures/image.png
+# image: assets/images/posts/report-maintenance-remove-unused-report-measures/image.png
 ---
 
 ## Introduction
