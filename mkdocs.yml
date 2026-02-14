@@ -1,12 +1,12 @@
 site_name: DAX Noob
-site_url: https://daxnoob.blog/
-repo_url: https://github.com/daxnoob/daxnoob.github.io
-repo_name: daxnoob
+site_url: https://daxnoobjustin.github.io/daxnoob.github.io/
+repo_url: https://github.com/DAXNoobJustin/daxnoob.github.io
+repo_name: DAXNoobJustin
 site_author: Justin Martin
 site_description: Just a guy who really likes Power BI.
 copyright: >
     Copyright &copy; 2024 - 2026 Justin Martin -
-    <a href="/privacy/">Privacy Policy</a>
+    <a href="privacy/">Privacy Policy</a>
 
 theme:
   name: material
@@ -42,13 +42,13 @@ extra:
       link: https://www.linkedin.com/in/daxnoobjustin/
       name: Justin Martin
     - icon: fontawesome/brands/github
-      link: https://github.com/daxnoob
-      name: daxnoob
+      link: https://github.com/DAXNoobJustin
+      name: DAXNoobJustin
     - icon: material/email
       link: mailto:justin@daxnoob.blog
       name: Email
     - icon: material/rss
-      link: https://daxnoob.blog/feed_rss_created.xml
+      link: /daxnoob.github.io/feed_rss_created.xml
       name: RSS Feed
 
 plugins:
@@ -68,7 +68,7 @@ plugins:
         default_timezone: "UTC"
       categories:
         - categories
-      image: https://daxnoob.blog/assets/images/avatar.png
+      image: https://daxnoobjustin.github.io/daxnoob.github.io/assets/images/avatar.png
       json_feed_enabled: true
       rss_feed_enabled: true
       pretty_print: false
@@ -122,7 +122,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: daxnoob
+      user: DAXNoobJustin
       repo: daxnoob.github.io
   - pymdownx.mark
   - pymdownx.smartsymbols

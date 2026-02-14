@@ -1,8 +1,7 @@
-{# Post header — description + divider, rendered below the h1 title #}
-{% if page.meta and page.meta.description %}
+{# Post header — divider only, rendered below the h1 title #}
+{% if page.meta and page.meta.date %}
 <div class="md-post-header" markdown>
   <div class="md-post-header__content">
-    <p class="md-post-header__description">{{ page.meta.description }}</p>
     <hr class="md-post-header__divider">
   </div>
 </div>

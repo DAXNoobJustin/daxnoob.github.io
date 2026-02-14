@@ -14,7 +14,7 @@ hide:
 <hr class="dn-section-divider">
 
 <div class="dn-showcase-grid">
-  <a href="/daxing-with-dax-noob-episode-3/" class="dn-showcase-card">
+  <a href="../daxing-with-dax-noob-episode-3/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">June 17, 2025</span>
@@ -26,7 +26,7 @@ hide:
       </p>
     </div>
   </a>
-  <a href="/daxing-with-dax-noob-episode-2/" class="dn-showcase-card">
+  <a href="../daxing-with-dax-noob-episode-2/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">April 4, 2025</span>
@@ -38,7 +38,7 @@ hide:
       </p>
     </div>
   </a>
-  <a href="/daxing-with-dax-noob-episode-1/" class="dn-showcase-card">
+  <a href="../daxing-with-dax-noob-episode-1/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">March 29, 2025</span>

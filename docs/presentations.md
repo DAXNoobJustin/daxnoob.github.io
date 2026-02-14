@@ -14,7 +14,7 @@ hide:
 <hr class="dn-section-divider">
 
 <div class="dn-showcase-grid">
-  <a href="/semantic-model-optimization-theory-tips-and-tools/" class="dn-showcase-card">
+  <a href="../semantic-model-optimization-theory-tips-and-tools/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">November 4, 2025</span>
@@ -26,7 +26,7 @@ hide:
       </p>
     </div>
   </a>
-  <a href="/power-query-level-up-exploring-the-advanced-editor-and-the-m-language/" class="dn-showcase-card">
+  <a href="../power-query-level-up-exploring-the-advanced-editor-and-the-m-language/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">February 25, 2024</span>

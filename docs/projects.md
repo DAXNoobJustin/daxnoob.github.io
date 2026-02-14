@@ -14,7 +14,7 @@ hide:
 <hr class="dn-section-divider">
 
 <div class="dn-showcase-grid">
-  <a href="/mcp-server-dax-performance-tuner/" class="dn-showcase-card">
+  <a href="../mcp-server-dax-performance-tuner/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">October 21, 2025</span>
@@ -26,7 +26,7 @@ hide:
       </p>
     </div>
   </a>
-  <a href="/fabric-toolbox-semantic-model-audit/" class="dn-showcase-card">
+  <a href="../fabric-toolbox-semantic-model-audit/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">March 12, 2025</span>
@@ -38,7 +38,7 @@ hide:
       </p>
     </div>
   </a>
-  <a href="/fabric-tools-dax-performance-testing/" class="dn-showcase-card">
+  <a href="../fabric-tools-dax-performance-testing/" class="dn-showcase-card">
     <div class="dn-showcase-card__content">
       <div class="dn-showcase-card__meta">
         <span class="dn-showcase-card__date">March 3, 2025</span>
