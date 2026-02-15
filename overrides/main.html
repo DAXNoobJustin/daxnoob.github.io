@@ -47,3 +47,9 @@
   <meta name="twitter:image" content="{{ config.site_url }}assets/images/shared/avatar.png" />
   {% endif %}
 {% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script data-goatcounter="https://daxnoob.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+{% endblock %}
