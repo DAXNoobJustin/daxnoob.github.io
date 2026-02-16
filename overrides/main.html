@@ -1,9 +1,6 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  <!-- follow.it feed verification -->
-  <meta name="follow.it-verification-code" content="WaZUwXc3QlZvGFlfEyXV"/>
-
   <!-- Cache Control -->
   <meta http-equiv="Cache-Control" content="max-age=300, must-revalidate" />
   <meta http-equiv="Expires" content="0" />
@@ -49,13 +46,6 @@
   {% else %}
   <meta name="twitter:image" content="{{ config.site_url }}assets/images/shared/avatar.png" />
   {% endif %}
-{% endblock %}
-
-{% block footer %}
-  {{ super() }}
-  <a href="https://follow.it/dax-noob?leanpub" target="_blank" rel="noopener" class="dn-footer-subscribe">
-    &#9993; Subscribe to new posts
-  </a>
 {% endblock %}
 
 {% block scripts %}
