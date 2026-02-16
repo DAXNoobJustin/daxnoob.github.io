@@ -94,6 +94,20 @@
   color: var(--dn-teal);
 }
 
+/* --- Nav tab pill --- */
+.md-tabs__link[href*="buttondown.com"] {
+  background: var(--dn-teal);
+  color: #fff !important;
+  border-radius: 2rem;
+  padding: .35rem 1rem !important;
+  font-weight: 600;
+  transition: background .2s, transform .1s;
+}
+.md-tabs__link[href*="buttondown.com"]:hover {
+  background: var(--dn-teal-dark);
+  transform: translateY(-1px);
+}
+
 /* --- Responsive --- */
 @media (max-width: 600px) {
   .dn-subscribe__inner {
