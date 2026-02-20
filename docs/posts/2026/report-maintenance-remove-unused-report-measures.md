@@ -3,7 +3,7 @@ title: "Report Maintenance: Remove Unused Report Measures"
 description: "You spend a lot of time designing a report, carefully crafting measures specific to that report's needs. When it is time for a new report, it is often easiest to copy the existing one as a starting point..."
 draft: false
 date:
-  created: 2026-02-13
+  created: 2026-02-20
 categories:
   - Administration
 tags:
