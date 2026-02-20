@@ -237,3 +237,21 @@ p.md-post-header__description,
     font-size: 1.6rem;
   }
 }
+
+/* ---------- Accessible DOM order ---------- */
+/* Article is first in DOM (for screen readers), but sidebar
+   should appear first visually on desktop (row layout). */
+@media screen and (min-width: 76.25em) {
+  .md-content--post > .md-sidebar--post {
+    order: -1;           /* sidebar visually first (left) */
+  }
+}
+
+/* On narrow screens the theme normally uses column-reverse to
+   show the article above the sidebar. Since the article is now
+   first in DOM, regular column order achieves the same result. */
+@media screen and (max-width: 76.234375em) {
+  .md-content--post {
+    flex-flow: column !important;
+  }
+}

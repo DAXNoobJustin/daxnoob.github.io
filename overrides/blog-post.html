@@ -69,7 +69,12 @@
     <script>document.body.classList.add('has-hero-image');</script>
   {% endif %}
   <div class="md-content md-content--post" data-md-component="content">
-    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+    <article class="md-content__inner md-typeset" role="main" id="post-content">
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation" role="complementary" aria-label="Post info">
       <div class="md-sidebar__scrollwrap">
         <div class="md-sidebar__inner md-post">
           <nav class="md-nav md-nav--primary">
@@ -193,10 +198,5 @@
         </div>
       </div>
     </div>
-    <article class="md-content__inner md-typeset">
-      {% block content %}
-        {% include "partials/content.html" %}
-      {% endblock %}
-    </article>
   </div>
 {% endblock %}

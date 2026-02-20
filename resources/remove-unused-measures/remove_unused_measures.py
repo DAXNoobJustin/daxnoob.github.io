@@ -247,7 +247,7 @@ class PBIRMeasureCleaner:
                         continue
                     
                     payload = part['payload']
-                    if "filterConfig" in payload and "filters" in payload["filterConfig"]:
+                    if isinstance(payload, dict) and "filterConfig" in payload and "filters" in payload["filterConfig"]:
                         original_filters = payload["filterConfig"]["filters"]
                         cleaned_filters = [
                             flt for flt in original_filters
